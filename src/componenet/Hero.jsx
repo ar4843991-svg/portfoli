@@ -34,7 +34,7 @@ function Hero() {
             <img
               src={Atta}
               alt="Atta Ur Rahman"
-              className="w-full h-full object-cover object-[50%_20%]"
+              className="w-full h-full object-cover object-[50%_200%] scale-116"
             />
           </div>
         </motion.div>
@@ -61,7 +61,7 @@ function Hero() {
           </p>
 
           {/* BUTTONS */}
-          <div className="mt-8 flex flex-row gap-4">
+          <div className="mt-8 flex  flex-row gap-4">
             <button className="bg-[#c3e3a3] text-[#05141b] px-6 py-3 rounded-md font-semibold
             hover:bg-[#a8c58f] transition duration-300">
               View Work
