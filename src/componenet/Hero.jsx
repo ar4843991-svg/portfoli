@@ -75,7 +75,7 @@ function Hero() {
 
           {/* Image */}
           <div className="
-          relative ml-22
+          relative 
           w-[220px] md:w-[340px]
           h-[220px] md:h-[340px]
           rounded-full
