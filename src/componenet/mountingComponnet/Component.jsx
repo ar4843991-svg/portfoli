@@ -11,7 +11,7 @@ import Footer from '../Footer'
 
 function Component() {
   return (
-    <div className='overflow-x-hidden w-full'>
+    <div className='overflow-x-hidden w-full '>
 
       <NavBar />
       <Hero />

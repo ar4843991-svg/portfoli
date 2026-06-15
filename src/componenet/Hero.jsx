@@ -1,6 +1,8 @@
 import React from 'react'
 import Atta from "../assets/img1.jpeg"
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
+
 
 function Hero() {
   return (
@@ -12,7 +14,7 @@ function Hero() {
       id='home'
       className="w-full min-h-screen  flex items-center justify-center px-6 md:px-20"
     >
-      <div className="w-full flex flex-col items-center md:flex-row md:items-center md:justify-between  py-20 md:py-5 gap-10">
+      <div className="w-full flex flex-col items-center md:flex-row md:items-center md:justify-between  py-20  md:py-35 gap-10">
 
         {/* IMAGE - mobile pe upar */}
         <motion.div
@@ -34,7 +36,7 @@ function Hero() {
             <img
               src={Atta}
               alt="Atta Ur Rahman"
-              className="w-full h-full object-cover object-[50%_200%] scale-118"
+              className="w-full h-full object-cover object-[50%_210%] scale-118"
             />
           </div>
         </motion.div>
@@ -47,9 +49,9 @@ function Hero() {
           transition={{ duration: 0.7 }}
           className="w-full flex flex-col items-center text-center md:w-1/2 md:items-start md:text-left md:order-1"
         >
-          <h1 className="text-3xl md:text-6xl font-bold text-white leading-tight">
-            Hi, I'm{" "}
-            <span className="text-[#c3e3a3]">Atta Ur Rahman</span>
+          <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+            Hi, I'm{" "} <br />
+            <span className="text-[#c3e3a3] text-6xl">Atta Ur Rahman</span>
           </h1>
 
           <p className="text-lg md:text-3xl text-[#E2E8F0] font-semibold mt-3">
@@ -62,10 +64,13 @@ function Hero() {
 
           {/* BUTTONS */}
           <div className="mt-8 flex  flex-row gap-4">
-            <button className="bg-[#c3e3a3] text-[#05141b] px-6 py-3 rounded-md font-semibold
+            <Link to="/MyWork" >
+             <button className="bg-[#c3e3a3] text-[#05141b] px-6 py-3 rounded-md font-semibold
             hover:bg-[#a8c58f] transition duration-300">
               View Work
             </button>
+            </Link>
+           
             <button className="border border-[#c3e3a3] text-[#c3e3a3] px-6 py-3 rounded-md font-semibold
             hover:bg-[#c3e3a3] hover:text-[#05141b] transition duration-300">
               Contact Me
