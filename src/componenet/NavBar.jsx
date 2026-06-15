@@ -12,7 +12,7 @@ function NavBar() {
       border-b border-white/10 shadow-[0_2px_6px_rgba(0,0,0,0.25)]"
     >
       {/* CONTAINER */}
-      <div className="max-w-[1400px] mx-auto px-6 md:px-20 py-4 flex justify-between items-center">
+      <div className="  px-6 md:px-20 py-4 flex flex-wrap justify-between items-center">
 
         {/* LOGO */}
         <h1 className="text-2xl hover:scale-105 transition duration-300
@@ -84,7 +84,7 @@ transition duration-200 ease-in-out"
         {/* MOBILE BUTTON */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-white text-3xl z-50"
+          className="md:hidden  text-white text-3xl z-50"
         >
           {open ? "✖" : "☰"}
         </button>
