@@ -35,14 +35,13 @@ function Contact() {
           transition={{ duration: 0.7 }}
           className="flex-1 space-y-6"
         >
-
           {/* EMAIL */}
           <div className="flex items-center gap-4 bg-white/5 border border-white/10 p-5 rounded-xl
           hover:border-[#c3e3a3] hover:shadow-[0_0_15px_rgba(195,227,163,0.2)] transition">
             <FaEnvelope className="text-[#c3e3a3] text-2xl" />
             <div>
               <h3 className="text-white font-semibold">Email</h3>
-              <p className="text-[#94A3B8]">atta@example.com</p>
+              <p className="text-[#94A3B8]">atta123@example.come</p>
             </div>
           </div>
 
@@ -62,7 +61,7 @@ function Contact() {
             <FaMapMarkerAlt className="text-[#c3e3a3] text-2xl" />
             <div>
               <h3 className="text-white font-semibold">Location</h3>
-              <p className="text-[#94A3B8]">Abbottabad, Pakistan</p>
+              <p className="text-[#94A3B8]">Peshawar, Pakistan</p>
             </div>
           </div>
 
@@ -114,9 +113,7 @@ function Contact() {
           >
             Send Message 🚀
           </button>
-
         </motion.form>
-
       </div>
 
     </section>

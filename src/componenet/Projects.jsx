@@ -14,7 +14,7 @@ function Projects() {
     {
       title: "Portfolio Website",
       desc: "Modern developer portfolio with animations and UI effects.",
-      img: "https://source.unsplash.com/600x400/?portfolio,design"
+      img: Img1,
     },
     {
       title: "Dashboard UI",
@@ -24,7 +24,7 @@ function Projects() {
     {
       title: "Blog Platform",
       desc: "Full blog system with authentication and CMS features.",
-      img: "https://source.unsplash.com/600x400/?blog,technology"
+      img: Img1,
     }
   ]
 
@@ -61,7 +61,6 @@ function Projects() {
             className="group bg-white/5 border border-white/10 rounded-xl overflow-hidden
             hover:border-[#c3e3a3] transition duration-300"
           >
-
             {/* IMAGE */}
             <div className="overflow-hidden">
               <img
@@ -89,7 +88,6 @@ function Projects() {
               transition duration-300">
                 View Project
               </button>
-
             </div>
 
           </motion.div>

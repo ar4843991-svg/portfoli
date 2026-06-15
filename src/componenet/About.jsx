@@ -182,9 +182,7 @@ function About() {
               "
               >
                 <FaSmile className="text-[#c3e3a3] text-3xl mx-auto mb-3" />
-
                 <h3 className="text-white text-2xl font-bold">8+</h3>
-
                 <p className="text-[#E2E8F0]">
                   Happy Clients
                 </p>
@@ -199,4 +197,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
