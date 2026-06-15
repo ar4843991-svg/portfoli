@@ -10,7 +10,7 @@ function Hero() {
       viewport={{ once: false, amount: 0.4 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       id='home'
-      className="w-full min-h-screen flex items-center px-6 md:px-20 "
+      className="w-full min-h-screen flex items-center px-8 md:px-20 "
     >
       <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center justify-between py-5 gap-12">
 
@@ -63,7 +63,7 @@ function Hero() {
         >
 
           {/* Background Shape */}
-          <div className="
+          {/* <div className="
           absolute
           w-[260px] md:w-[400px]
           h-[260px] md:h-[400px]
@@ -71,7 +71,7 @@ function Hero() {
           rounded-[50px]
           -top-5
           right-5
-          "></div>
+          "></div> */}
 
           {/* Image */}
           <div className="
