@@ -34,7 +34,7 @@ function Hero() {
             <img
               src={Atta}
               alt="Atta Ur Rahman"
-              className="w-full h-full object-cover object-[50%_200%] scale-116"
+              className="w-full h-full object-cover object-[50%_200%] scale-118"
             />
           </div>
         </motion.div>

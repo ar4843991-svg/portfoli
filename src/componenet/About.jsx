@@ -49,7 +49,7 @@ function About() {
               <img
                 src={Attaimg}
                 alt="about"
-                className="w-full h-full object-cover object-[50%_200%] scale-116"
+                className="w-full h-full object-cover object-[50%_200%] scale-120"
               />
             </div>
           </motion.div>
