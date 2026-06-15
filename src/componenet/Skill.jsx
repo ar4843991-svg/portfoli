@@ -17,7 +17,7 @@ function Skill() {
   ]
 
   return (
-    <section id="skills" className="w-full min-h-screen px-6 md:px-20 py-20">
+    <section id="skills" className="w-full min-h-screen px-6 flex flex-col justify-center items-center md:px-20 py-20">
       {/* TITLE */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}

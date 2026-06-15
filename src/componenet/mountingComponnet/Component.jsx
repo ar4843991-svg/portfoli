@@ -11,7 +11,7 @@ import Footer from '../Footer'
 
 function Component() {
   return (
-    <div className='h-screen'>
+    <div className=''>
 
       <NavBar />
       <Hero />
